@@ -1,0 +1,154 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-dum {
+    background-color: white;
+    margin: 2.5rem;
+    margin-top: 1rem;
+    display: flex;
+    padding: 0 2.5rem;
+    margin-bottom: 0px;
+    min-height: 90vh;
+}
+
+.navbar {
+    background-color: white;
+    margin: 0rem 2.5rem;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .title {
+    display: inline-block;
+    margin: 1rem 0 0 4rem;
+}
+
+.navbar .pages {
+    display: inline-block;
+    margin: 1rem 0;
+    margin-right: 4rem;
+    display: flex;
+}
+
+.navbar .pages a:hover {
+    color: green;
+}
+
+.navbar .pages a, .navbar .title h3 {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 3px green solid;
+}
+
+.container-1 {
+    background-color: white;
+    margin: 2.5rem;
+    margin-top: 1rem;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.picture img {
+    width: 120px;
+    border: black 3px solid;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 1rem 0 0 1rem;
+}
+
+.section-1 {
+    display: inline-block;
+    margin: 0.15rem 2.5rem 0px 1rem;
+
+}
+.section-1 h3 {
+    margin-bottom: 0rem;
+}
+.section-1 p {
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.btn-primary {
+    border: 2px blue solid;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    padding: 0.4rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    border: 2px green solid;
+    background-color: white;
+    color: green;
+    border-radius: 3px;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+}
+
+.section-2{
+    margin: 1rem  1.5rem 1.5rem 5rem;
+}
+
+.section-2 b {
+    margin: 0.25rem;
+    display: block;
+}
+
+.section-3 {
+    margin-top: 1rem;
+}
+
+.section-3 p {
+    margin: 0.25rem;
+    display: block;
+    color: gray;
+}
+
+.container-2 {
+    background-color: white;
+    margin: 2.5rem;
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+}
+
+.form-group {
+    margin: 0.5rem 0rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.form-input {
+    border: 1px silver solid;
+    border-radius: 2px;
+    width: 100%;
+    padding: 0.25rem;
+    box-sizing: border-box;
+}
+
+.btn-success {
+    border: 2px green solid;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+    padding: 0.25rem 1rem;
+    width: 100%;
+    margin: 0.75rem 0px;
+    cursor: pointer;
+}
